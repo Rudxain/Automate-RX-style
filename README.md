@@ -1,6 +1,8 @@
 # RX Automate style
 Inspired by the [Airbnb JS style guide](https://github.com/airbnb/javascript) and [Google style guides](https://google.github.io/styleguide), I introduce you to the 1st ever (I guess?) set of style, formatting, and best-practices for LL-AM
 
+This is **very** incomplete, so don't take it seriously... yet
+
 ## Name
 
 To explicitly communicate that this is not official, and not affiliated with Llamalab, and just 1 of infinitely many possible styles, I added the "RX" prefix which stands for "RudXain"
