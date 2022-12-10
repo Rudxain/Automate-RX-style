@@ -17,13 +17,14 @@ This is intended to be for everyone, by everyone, from everyone. Therefore, cont
 
 Variables:
 - [snake_case](https://en.wikipedia.org/wiki/Snake_case)
-- constants must be ALL UPPERCASE. Since all vars are mutable, we must take the same approach as in Python and Shell langs
-- fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
+- Constants must be ALL UPPERCASE. Since all vars are mutable, we must take the same approach as in Python and Shell langs
+- Fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
 - ["Process text selection"](https://llamalab.com/automate/doc/block/process_text.html) blocks shouldn't have redundant info. Never use the exact name as the "Flow Beginning", add some useful variations. Example: If the flow is named "Uppercase and Lowercase converter", the block-title should be "change capitalization" if the next dialogue is a "Choice block". Or "to lowercase" and "TO UPPERCASE" if each fiber converts to 1 capitalization (and there's no "Choice")
 
 ## Subroutines
 
-- if a subroutine makes assumptions about 1 or more variables, you must document those assumptions. You wouldn't want users of your subroutine accidentally assigning a non-null value to a variable that's expected to be `null`, that could be catastrophic if the variable contains private data and the subroutine posts it publicly to a random server
+- Use these blocks to mark the entry-points of "backend logic" (non UI stuff). This is known as [modular programming](https://en.wikipedia.org/wiki/Modular_programming). However, if the entry-point is extremely obvious (e.g. when it's just 1 var-set), you can save blocks (and get better performance) by not adding it.
+- If a subroutine makes assumptions about 1 or more variables, you must document those assumptions. You wouldn't want users of your subroutine accidentally assigning a non-null value to a variable that's expected to be `null`, that could be catastrophic if the variable contains private data and the subroutine posts it publicly to a random server
 
 ## Appendix
 
