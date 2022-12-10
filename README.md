@@ -3,7 +3,7 @@ Inspired by the [Airbnb JS style guide](https://github.com/airbnb/javascript) an
 
 This is **very** incomplete, so don't take it seriously... yet
 
-## Name
+## Repo Name
 
 To explicitly communicate that this is not official, and not affiliated with Llamalab, and just 1 of infinitely many possible styles, I added "RX" which stands for "RudXain"
 
@@ -13,9 +13,7 @@ Despite the "RX", this is not intended to be "my personal style". I may take the
 
 This is intended to be for everyone, by everyone, from everyone. Therefore, contributions are very welcome!
 
-## Rules
-
-### Naming
+## Naming
 
 Variables:
 - [snake_case](https://en.wikipedia.org/wiki/Snake_case)
@@ -23,6 +21,10 @@ Variables:
 - fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
 - "Select Text" blocks shouldn't have redundant info. Never use the exact name as the flow, add some useful variations
 
-### Subroutines
+## Subroutines
 
 - if a subroutine makes assumptions about 1 or more variables, you must document those assumptions. You wouldn't want users of your subroutine accidentally assigning a non-null value to a variable that's expected to be `null`, that could be catastrophic if the variable contains private data and the subroutine posts it publicly to a random server
+
+## Appendix
+
+Just RTD (Read The Docs). If you learn more about AM, and practice coding in it, you'll learn best practices _automagically!_. The style
