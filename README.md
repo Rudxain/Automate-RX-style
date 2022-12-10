@@ -19,7 +19,7 @@ Variables:
 - [snake_case](https://en.wikipedia.org/wiki/Snake_case)
 - constants must be ALL UPPERCASE. Since all vars are mutable, we must take the same approach as in Python and Shell langs
 - fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
-- "Select Text" blocks shouldn't have redundant info. Never use the exact name as the flow, add some useful variations
+- ["Process text selection"](https://llamalab.com/automate/doc/block/process_text.html) blocks shouldn't have redundant info. Never use the exact name as the "Flow Beginning", add some useful variations. Example: If the flow is named "Uppercase and Lowercase converter", the block-title should be "change capitalization" if the next dialogue is a "Choice block". Or "to lowercase" and "TO UPPERCASE" if each fiber converts to 1 capitalization (and there's no "Choice")
 
 ## Subroutines
 
@@ -27,4 +27,4 @@ Variables:
 
 ## Appendix
 
-Just RTD (Read The Docs). If you learn more about AM, and practice coding in it, you'll learn best practices _automagically!_. The style
+Just RTD (Read The Docs). If you learn more about AM, and practice coding in it, you'll learn best practices _automagically!_
