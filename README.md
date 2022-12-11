@@ -27,6 +27,13 @@ Variables:
 - Use [Yoda Style](https://en.wikipedia.org/wiki/Yoda_conditions) when appropriate. AM has no assignment-expressions, but there are expression-previews.
 A good example is when checking types: Imagine you have multiple blocks, all saying `type(var) = ...` in their previews, it's so frustrating when the preview doesn't show **which** types are being checked!
 But we may argue the same about vars: image you had multiple vars, all being checked against the same type, and all you can see is `"number" = type(...` everywhere. It's so frustrating not knowing what vars are being checked!
+- Use parentheses when appropriate. The docs aren't clear about operator precedence and associativity, so please reduce ambiguity in the meantime
+- **Always** use parentheses in nested ternaries
+
+## Formatting
+
+- Place blocks near each other, such that their connection paths are as short as possible
+- If multiple paths of similar colors are overlapping, try to find a way to separate them. This is useful to disambiguate connections, especially for colorblind people
 
 ## Subroutines
 
