@@ -27,7 +27,7 @@ A good example is when checking types: Imagine you have multiple blocks, all say
 But we may argue the same about vars: image you had multiple vars, all being checked against the same type, and all you can see is `"number" = type(...` everywhere. It's so frustrating not knowing what vars are being checked!
 - Use parentheses when appropriate. The docs aren't clear about operator precedence and associativity, so please reduce ambiguity in the meantime
 - **Always** use parentheses in nested ternaries
-- Use `++` for string concatenation. Only use interpolation if there's an expression between literals.
+- Use `++` for string concatenation. Only use interpolation if there's an expression between text literals.
 This makes it look cleaner and allows name-completion. Interpolations can't always have name-completions
 
 ## Formatting
