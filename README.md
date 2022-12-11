@@ -20,7 +20,7 @@ Variables:
 - Constants must be ALL UPPERCASE. Since all vars are mutable, we must take the same approach as in Python and Shell langs
 - The more vars declared, the more descriptive their names should be. AM has an autocomplete feature, so don't be afraid of long names, except if they take too much space in the flowchart preview 
 - Fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
-- ["Process text selection"](https://llamalab.com/automate/doc/block/process_text.html) blocks shouldn't have redundant info. Never use the exact name as the "Flow Beginning", add some useful variations. Example: If the flow is named "Uppercase and Lowercase converter", the block-title should be "change capitalization" if the next dialogue is a "Choice block". Or "to lowercase" and "TO UPPERCASE" if each fiber converts to 1 capitalization (and there's no "Choice")
+- ["Process text selection"](https://llamalab.com/automate/doc/block/process_text.html) blocks shouldn't have redundant info. Never use the exact name as the "Flow Beginning", add some useful variations. Example: If the flow is named "Uppercase and Lowercase converter", the block-title should be "to lowercase" and "TO UPPERCASE" if each fiber converts to 1 capitalization (and there's no "Choice" blocks)
 
 ## Expressions
 
