@@ -1,8 +1,6 @@
 # AM RX style
 Inspired by the [Airbnb JS style guide](https://github.com/airbnb/javascript) and [Google style guides](https://google.github.io/styleguide), I introduce you to the 1st-ever-made set of style, formatting, and best-practices for [LL](https://llamalab.com)-[AM](https://llamalab.com/automate)
 
-This is **very** incomplete, so don't take it seriously... yet
-
 ## Repo Name
 
 To explicitly communicate that this is not official, and not affiliated with Llamalab, and just 1 of infinitely many possible styles, I added "RX" which stands for "RudXain"
