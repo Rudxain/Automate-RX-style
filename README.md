@@ -18,8 +18,15 @@ This is intended to be for everyone, by everyone, from everyone. Therefore, cont
 Variables:
 - [snake_case](https://en.wikipedia.org/wiki/Snake_case)
 - Constants must be ALL UPPERCASE. Since all vars are mutable, we must take the same approach as in Python and Shell langs
+- The more vars declared, the more descriptive their names should be. AM has an autocomplete feature, so don't be afraid of long names, except if they take too much space in the flowchart preview 
 - Fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
 - ["Process text selection"](https://llamalab.com/automate/doc/block/process_text.html) blocks shouldn't have redundant info. Never use the exact name as the "Flow Beginning", add some useful variations. Example: If the flow is named "Uppercase and Lowercase converter", the block-title should be "change capitalization" if the next dialogue is a "Choice block". Or "to lowercase" and "TO UPPERCASE" if each fiber converts to 1 capitalization (and there's no "Choice")
+
+## Expressions
+
+- Use [Yoda Style](https://en.wikipedia.org/wiki/Yoda_conditions) when appropriate. AM has no assignment-expressions, but there are expression-previews.
+A good example is when checking types: Imagine you have multiple blocks, all saying `type(var) = ...` in their previews, it's so frustrating when the preview doesn't show **which** types are being checked!
+But we may argue the same about vars: image you had multiple vars, all being checked against the same type, and all you can see is `"number" = type(...` everywhere. It's so frustrating not knowing what vars are being checked!
 
 ## Subroutines
 
