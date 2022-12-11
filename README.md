@@ -46,4 +46,4 @@ Just RTD (Read The Docs). If you learn more about AM, and practice coding in it,
 
 Currently, the AST implementation used in \*.flo files is subject to change, without warning. This means that making linters/formatters that are forwards-compatible is almost impossible ([Source](https://groups.google.com/g/automate-user/c/_8xuZW7j5Ps/m/g-XtwOIAAgAJ))
 
-If AM had a public API that was [LSP](https://en.wikipedia.org/wiki/Language_Server_Protocol)-compliant, then it would be possible to parse and analyse \*.flo files
+If AM had a public API similar to [LSP](https://en.wikipedia.org/wiki/Language_Server_Protocol), then it would be possible to parse and analyse \*.flo files
