@@ -30,6 +30,18 @@ But we may argue the same about vars: image you had multiple vars, all being che
 - Use `++` for string concatenation. Only use interpolation if there's an expression between text literals.
 This makes it look cleaner and allows name-completion. Interpolations can't always have name-completions
 
+## Comments
+
+Since AM doesn't support comments _per-se_, we have to emulate them.
+
+- Expressions:
+The best way is to use a ternary operator, [like in this flow](https://llamalab.com/automate/community/flows/40004). You can place comments on either side, unlike `&&` and `||` ops
+
+- Blocks:
+You can add unconnected "Log Append"s, but that increases the block count, forcing some non-premium users to delete those blocks.
+Another option is to include block-docs in the flow description, but that may not have enough space.
+If you need **much more space**, you can host the docs elsewhere, and add a link in the desc
+
 ## Formatting
 
 - Place blocks near each other, such that their connection paths are as short as possible
