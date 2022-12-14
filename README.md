@@ -40,7 +40,7 @@ The best way is to use a ternary operator, [like in this flow](https://llamalab.
 - Blocks:
 You can add unconnected "Log Append"s, but that increases the block count, forcing some non-premium users to delete those blocks.
 Another option is to include block-docs in the flow description, but that may not have enough space.
-If you need **much more space**, you can host the docs elsewhere, and add a link in the desc
+If you need **much more space**, you should host the docs elsewhere (this speeds-up downloads, because the .flo is smaller), and add a link in the desc
 
 ## Formatting
 
