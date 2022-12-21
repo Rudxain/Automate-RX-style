@@ -25,7 +25,7 @@ Variables:
 
 - Use [Yoda Style](https://en.wikipedia.org/wiki/Yoda_conditions) when appropriate. AM has no assignment-expressions, but there are expression-previews.
 A good example is when checking types: Imagine you have multiple blocks, all saying `type(var) = ...` in their previews, it's so frustrating when the preview doesn't show **which** types are being checked!
-But we may argue the same about vars: image you had multiple vars, all being checked against the same type, and all you can see is `"number" = type(...` everywhere. It's so frustrating not knowing what vars are being checked!
+But we may argue the same about vars: imagine you had multiple vars, all being checked against the same type, and all you can see is `"number" = type(...` everywhere. It's so frustrating not knowing what vars are being checked!
 - Use parentheses when appropriate. The docs aren't clear about operator precedence and associativity, so please reduce ambiguity in the meantime
 - **Always** use parentheses in nested ternaries
 - Use `++` for string concatenation. Only use interpolation if there's an expression between text literals.
