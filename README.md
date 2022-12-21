@@ -16,6 +16,7 @@ This is intended to be for everyone, by everyone, from everyone. Therefore, cont
 Variables:
 - [snake_case](https://en.wikipedia.org/wiki/Snake_case)
 - Constants must be ALL UPPERCASE. Since all vars are mutable, we must take the same approach as in Shell langs
+- private/local vars must be suffixed with `_`. AM syntax doesn't allow `_` as prefix
 - The more vars declared, the more descriptive their names should be. There are no doc-comments, and AM has name-completion, so don't be afraid of long names, except if they take too much space in the flowchart preview 
 - Fiber IDs should be prefixed with `f_`. See [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation)
 - ["Process text selection"](https://llamalab.com/automate/doc/block/process_text.html) blocks shouldn't have redundant info. Never use the exact name as the "Flow Beginning", add some useful variations. Example: If the flow is named "Uppercase and Lowercase converter", the block-title should be "to lowercase" and "TO UPPERCASE" if each fiber converts to 1 capitalization (and there's no "Choice" blocks)
