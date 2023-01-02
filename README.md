@@ -40,11 +40,11 @@ The best way is to use a ternary operator, [like in this flow](https://llamalab.
 - Blocks:
 You can add unconnected "Log Append"s, but that increases the block count, forcing some non-premium users to delete those blocks.
 Another option is to include block-docs in the flow description, but that may not have enough space.
-If you need **much more space**, you should host the docs elsewhere (this speeds-up downloads, because the .flo is smaller), and add a link in the desc
+If you need **much more space**, you should host the docs elsewhere (this speeds-up flow downloads for the users), and add a link in the desc
 
 ## Formatting
 
-- Place blocks near each other, such that their connection paths are as short as possible
+- Place blocks near each other, such that their connection paths are as short as possible. If there are too many blocks, add some space, such that the blocks are "grouped" with related blocks, but also "isolated" from unrelated groups
 - If multiple paths of similar colors are overlapping, try to find a way to separate them. This is useful to disambiguate connections, especially for colorblind people
 
 ## Subroutines
