@@ -5,11 +5,14 @@ Inspired by the [Airbnb JS style guide](https://github.com/airbnb/javascript) an
 
 To explicitly communicate that this is not official, and not affiliated with Llamalab, and just 1 of infinitely many possible styles, I added "RX" which stands for "RudXain"
 
-I couldn't think of a better name, please send me suggestions
+I couldn't think of a better name, please send me suggestions.
 
 Despite the "RX", this is not intended to be "my personal style". I may take the freedom to ignore some of these rules in my own AM-flows  
 
 This is intended to be for everyone, by everyone, from everyone. Therefore, contributions are very welcome!
+
+I'm consi renaming it to **"Cyanne"**. This name is inspired by Python Black, Cyanogenmod, AM's signature shade of blue, and the "secondary accent color" of my logo.
+Unintentionally, it sounds similar to "Chayanne". I encourage you to make memes and jokes about this, lol.
 
 ## Naming
 
