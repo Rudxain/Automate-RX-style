@@ -11,7 +11,7 @@ Despite the "RX", this is not intended to be "my personal style". I may take the
 
 This is intended to be for everyone, by everyone, from everyone. Therefore, contributions are very welcome!
 
-I'm considering renaming it to **"Cyanne"**. This name is inspired by Python Black, Cyanogenmod, AM's signature shade of blue, and the "secondary accent color" of my logo.
+I'm considering renaming it to **"Cyanne"**. This name is inspired by Python Black, CyanogenMod, AM's signature shade of blue, and the "secondary accent color" of my logo.
 Unintentionally, it sounds similar to "Chayanne". I encourage you to make memes and jokes about this, lol.
 
 ## Naming
